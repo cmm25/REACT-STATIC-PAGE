@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box ;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navitems{
+    list-style: none;
+    display: flex;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;;
+    padding: 30px 25px;
+    height: 90px;
+}
+.title, .project-name{
+    margin: 0;
+}
+.title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: auto;
+    color: #61DAFB;
+
+}
+.project-name{
+    font-weight: 600;
+    color: #deebf8;
+}
+.nav > img{
+    height: 30px;
+    margin-right: 7px;
+}
